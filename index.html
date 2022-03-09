@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <title>Umka Otomasyon</title>
+
+  <style>
+    *{
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+      text-decoration: none;
+    }
+
+
+    body{ 
+      background-color: #B42525;
+      background-image: url(pattern-bg.png);
+     }
+
+     .content-body{
+       width: 500px;
+       height: 500px;
+       margin: calc(50vh - 250px) auto;
+      }
+
+     .content-flex{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+
+     }
+     .content-flex-first,.content-flex-second{
+       width: 48%;
+       height: 100%;
+       border: 2px solid black;
+     }
+
+     .content-flex-first{
+      background-color: white;
+       padding-top: 1rem;
+     }
+
+     
+
+     .logo{
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: space-between;
+       gap: 1rem ;
+     }
+
+     .logo img{
+       width: 80%;
+
+     }
+
+     .logo p{
+       width: 80%;
+       margin: 0 auto;
+       text-align: center;
+       font-family: 'Roboto', sans-serif;
+     }
+
+     .content-flex-second iframe{
+       width: 100%;
+       height: 100%;
+     }
+
+     @media only screen and (max-width: 500px) {
+      .content-flex{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+     }
+     .content-flex-first,.content-flex-second{
+       width: 90%;
+       height: 100%;
+       border: 0px;
+     }
+
+     .content-flex-first{
+      border-top-left-radius:15px ;
+      border-top-right-radius:15px ;
+     }
+
+     .content-flex-second{
+       overflow: hidden;
+      border-bottom-left-radius:15px ;
+      border-bottom-right-radius:15px ;
+     }
+     .content-body{
+
+       width: 80vw;
+       height: unset;
+       margin: calc(50vh - 250px) auto;
+      }
+
+    }
+
+  </style>
+
+</head>
+<body>
+
+
+  <div class="full-page">
+    <div class="content-body">
+      <div class="content-flex">
+        <div class="content-flex-first">
+          <div class="logo">
+            <img src="logo siyah renkli 6.png" alt="">
+            <p>
+              Türkiye'nin yenilikçi markası Umka Otomasyon 
+              tamamen yenilikçi çözümler ile sizlere hizmet 
+              vermeye hazır. Web sitemizide en kısa sürede 
+              sizlerle buluşturmak için Umka-Soft bünyesinde 
+              hazırlıklarımıza devam ediyoruz. 
+            </p>
+            <a href="mailto:info@umkaotomasyon.com">info@umkaotomasyon.com</a>
+            <br>
+            <a href="tel:+905550893919">0 555 089 39 19</a>
+
+          </div>
+
+        </div>
+        <div class="content-flex-second">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1604270.3523631834!2d27.803232754677477!3d38.24840747762921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b7012ef7e669d1%3A0x4f9c97d4376fecda!2sUMKA%20SOFT!5e0!3m2!1str!2str!4v1646813705544!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        
+      </div>
+      
+    </div>
+  </div>
+  
+</body>
+</html>
